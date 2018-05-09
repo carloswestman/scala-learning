@@ -11,7 +11,7 @@ class scalatour{
 	println(1 + 1) // 2
 	println("Hello!") // Hello!
 	println("Hello," + " world!") // Hello, world!
-	assert( 1 == 2,  "expression not asserted")
+	assert( 1 == 1,  "expression not asserted")
   }
 
 }
