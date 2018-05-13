@@ -32,9 +32,9 @@ class Scalatour{
     var inc = (x: Int) => x + 1
     println(inc(1))
     val add = (x: Int, y: Int) => x + y
-    println(add(1, 2)) // 3 
+    println(add(1, 2)) // 3
     val getTheAnswer = () => 42 // no parameter function
-    println(getTheAnswer()) // 42 
+    println(getTheAnswer()) // 42
     val multilineFunction = (x: Int) => {
       val y = x + 1
       y * x
@@ -93,10 +93,10 @@ class Scalatour{
     greeter1.greet("Scala developer") // Hello, Scala developer!
 
     val customGreeter = new CustomizableGreeter("How are you, ", "?")
-    customGreeter.greet("Scala developer") // How are you, Scala developer?   
+    customGreeter.greet("Scala developer") // How are you, Scala developer?
 
   }
-  def s2_unifiedtypes = {
+  def s2UnifiedTypes: Unit = {
     val list: List[Any] = List(
       "a string",
       732,  // an integer
